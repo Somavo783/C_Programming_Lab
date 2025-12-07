@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
 	float as,mys,fos;
-	printf("ENTER APPLIED STRESS:");
+	printf("ENTER APPLIED STRESS(In MPa):");
 	scanf("%f", &as);
-	printf("ENTER MATERIAL YIELD STENGTH:");
+	printf("ENTER MATERIAL YIELD STENGTH(In MPa):");
 	scanf("%f",&mys);
 	if (as==0){
 		printf("Invalid Entry");
